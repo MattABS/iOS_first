@@ -22,15 +22,15 @@ class ViewController: UIViewController {
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+ 
 
         //MARK: Action
-        @IBAction func setDefaultLabelText(sender: UIButton) {
-            mealNameLabel.text = "Default Text"
-            }
+    
+    
+    @IBAction func setDefaultLabelText(sender: UIButton) {
+        mealNameLabel.text = "Default Text"
+    }
+    
 
 }
 

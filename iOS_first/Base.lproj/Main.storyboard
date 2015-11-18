@@ -39,7 +39,7 @@
                                         <animations/>
                                         <state key="normal" title="Set Default Label Text."/>
                                         <connections>
-                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zDm-ai-ltd"/>
+                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e8I-PL-azs"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -61,7 +61,6 @@
                     <connections>
                         <outlet property="mealNameLabel" destination="ZVl-Wg-IOc" id="hKW-5f-d6E"/>
                         <outlet property="nameTextField" destination="PVe-e1-Oz2" id="NES-0d-Ii8"/>
-                        <outlet property="setDefaultLabelText" destination="8vY-a1-Gmk" id="6A7-YA-Cu8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

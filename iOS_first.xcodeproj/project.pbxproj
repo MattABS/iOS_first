@@ -14,6 +14,8 @@
 		C986C1A21BFC8E6E00A2596C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C986C1A01BFC8E6E00A2596C /* LaunchScreen.storyboard */; };
 		C986C1AD1BFC8E6E00A2596C /* iOS_firstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986C1AC1BFC8E6E00A2596C /* iOS_firstTests.swift */; };
 		C986C1B81BFC8E6E00A2596C /* iOS_firstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986C1B71BFC8E6E00A2596C /* iOS_firstUITests.swift */; };
+		C986C1C51BFCA78F00A2596C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C986C19B1BFC8E6E00A2596C /* Main.storyboard */; };
+		C986C1C61BFCA78F00A2596C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C986C19B1BFC8E6E00A2596C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C986C1C51BFCA78F00A2596C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C986C1C61BFCA78F00A2596C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ABS.iOS-first";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -414,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ABS.iOS-first";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
